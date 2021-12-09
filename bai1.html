@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--1: Viết chương trình nhập điểm của một sinh viên cho các môn: Vật lý, Hóa học, và Sinh học. Sau đó hiển thị điểm trung bình và tổng của những điểm này.-->
+<script>
+    let physics = "Vật lí"
+    let chemistry = "Hóa học"
+    let biological = "Sinh học"
+physics=prompt('nhập điểm lý');
+chemistry=prompt('nhập điểm Hóa');
+biological=prompt('nhập điểm Sinh');
+let L=parseInt(physics);
+let H=parseInt(chemistry);
+let S=parseInt(biological)
+    let total = L+H+S
+    let TB = total /3
+document.write("The total is" +total);
+document.write('<br/>')
+document.write("the TB is" +TB);
+document.write('<br/>')
+</script>
+</body>
+</html>
